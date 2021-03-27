@@ -10,15 +10,31 @@ header {
   margin: 20px auto;
 }
 
+/* header解答{
+  width:100%;
+  text-align:center;
+  padding:20px 0;
+ } */
+
 nav {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
 
+/* 解答に nav なし */
+
 .nav-list {
   text-align: center;
   margin: 15px auto;
 }
+
+/* .nav-list 解答{
+  text-align:center;
+  padding:15px 0;
+  margin:0 auto;
+  border-top: 1px solid #848282;
+  border-bottom: 1px solid #848282;
+ } */
 
 .nav-list-item {
   list-style: none;
@@ -31,11 +47,20 @@ main {
   margin:0 auto;
 }
 
+/* main 解答 {
+  width:800px;
+  margin:50px auto;
+  display:flex;
+  flex-wrap:wrap;
+ } */
+
 .boxes {
   display: flex;
   flex-wrap: wrap;
   margin: 50px auto;ß
 }
+
+/* boxes なし */
 
 .box1 {
   width: 200px;
