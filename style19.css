@@ -16,6 +16,10 @@ main {
   position: relative;
 }
 
+.box {
+  display: flex;
+  justify-content: center;
+}
 .box-item {
   width: 300px;
   margin-right: 30px;
@@ -25,12 +29,28 @@ main {
 
 .step {
   position: absolute;
+  left: 0;
+  top: 0;
   color: white;
   background-color: #ff9a4b;
 }
 
-.box-image {
+.box-image:nth-child(1) {
   background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+}
+
+.box-image:nth-child(2) {
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+}
+
+.box-image:nth-child(3) {
+  background-image: url(img/flow03.png);
   background-size: cover;
   background-position: center;
   height: 150px;
